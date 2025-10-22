@@ -29,9 +29,7 @@ form.addEventListener('submit', async (e) => {
   
   //sending result back to the backend
   try {
-    //local backend URL - local env 
-    //For render use: 'https://csun17.onrender.com/api/submit'
-    const API_URL = 'http://localhost:3001/api/submit';
+    const API_URL = 'https://alloyapp.onrender.com';
     
     //send data to backend
     const response = await fetch(API_URL, {
