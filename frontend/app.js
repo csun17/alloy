@@ -27,9 +27,9 @@ form.addEventListener('submit', async (e) => {
   };
   
   
-  //sending result back to the backend
+  //sending result back to the backend on render
   try {
-    const API_URL = 'https://alloyapp.onrender.com';
+    const API_URL = 'https://alloyapp.onrender.com/api/submit';
     
     //send data to backend
     const response = await fetch(API_URL, {
