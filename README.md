@@ -11,11 +11,12 @@ Depolyment - Render
 
 III. Test Cases: 
 Open URL https://alloy-frontend.onrender.com/ and submit an application with different last names for different results.
-Last name "Review" will result in an outcome of Manual Review
-Last name "Deny" will result in an outcome of Denied
-Other last names will result in an approved application
 
-Validation checks are added throughout the form, eg. SSN, State, DOB format etc
+1. Last name "Review" will result in an outcome of Manual Review
+2. Last name "Deny" will result in an outcome of Denied
+3. Other last names will result in an approved application
+
+*Validation checks are added throughout the form, eg. SSN, State, DOB format etc
 
 IV. Sample API Request & Response:
 
