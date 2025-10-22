@@ -1,0 +1,15 @@
+services:
+  # Backend API
+  - type: web
+    name: alloy-backend
+    runtime: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: ALLOY_WORKFLOW_TOKEN
+        sync: false
+      - key: ALLOY_WORKFLOW_SECRET
+        sync: false
+      - key: PORT
+        value: 3001
+
