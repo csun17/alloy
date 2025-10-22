@@ -1,8 +1,8 @@
 Alloy’s Technical Account Manager work assignment
 
-I. URL: https://alloy-frontend.onrender.com/
+I. Frontend URL: https://alloy-frontend.onrender.com/
 
-(please find testing screenshots in the alloy repository)
+(Backend API located at https://alloyapp.onrender.com. Please find supplementary testing screenshots in the repository)
 
 II. Tech Stack: 
 Frontend - HTML, CSS 
