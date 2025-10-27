@@ -8,7 +8,7 @@ https://alloy-frontend.onrender.com/
 
 II. Tech Stack:  
  Frontend - HTML, CSS  
- Backend - Node.js, Express  
+ Backend - Express  
  Depolyment - Render 
 
 III. Test Cases:    
